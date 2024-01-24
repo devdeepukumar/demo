@@ -1,0 +1,219 @@
+/*
+Theme Name: Blog Genius
+Author: blogwp
+Description: "Unleash the power of AI with Blog Genius, a cutting-edge child theme that transforms your website into a dynamic hub of creativity! From intelligent content recommendations to automated social media sharing, Blog Genius leverages AI to elevate your blogging game. Say goodbye to the ordinary and embrace the extraordinary as your website becomes a genius in its own right. Revolutionize your online presence with Blog Genius – where innovation meets inspiration in every click, creating a virtual masterpiece that resonates with both style and substance!"
+Author URI:   https://blogwpthemes.com/
+Version: 1.0.2
+Requires at least: 5.5
+Template: ai-news
+Tested up to: 6.4
+Requires PHP: 5.6
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, news, two-columns, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, editor-style, footer-widgets, theme-options, full-width-template, sticky-post, custom-header, custom-colors, flexible-header, grid-Layout, one-column, three-columns, left-sidebar , post-formats, rtl-language-support, block-styles, wide-blocks, entertainment, featured-image-header, front-page-post-form
+Text Domain:  blog-genius
+*/
+
+*{
+ 	font-family: 'Fira Sans', sans-serif;
+ }
+
+#myBtn{
+    background-color: #9311cb;
+ }
+
+.wp-header .wp-topbar ul li a:hover, .wp-header .wp-topbar ul li span:hover{
+    color: #9311cb;
+ }
+
+.container .news:hover{
+    color: #9311cb;
+}
+
+.carousel-caption a:hover{
+    color: #fff !important;
+}
+
+#myBtn:hover{
+    background-color: #9311cb;
+}
+
+.carousel-control-prev-icon{
+    border: 1px solid #fff;
+    width: 35px !important;
+    height: 35px !important;
+    border-width: thin;
+    background-color: #000;
+}
+
+.carousel-control-next-icon{
+    border: 1px solid #fff;
+    width: 35px !important;
+    height: 35px !important;
+    border-width: thin;
+    background-color: #000
+}
+
+.wp-header .wp-topbar #topbar-menu li a:after{
+    background-color: #9311cb;
+ }
+
+.wp-header .logo-area a{
+    color: #9311cb;
+ }
+
+.ai-news-main-navigation .wrapper{
+    background: #9311cb;
+ }
+
+.ptb-100{
+    padding-top: 20px;
+}
+
+.carousel-caption{
+    transform: translate(-50%, -90%);
+    background-color: transparent!important;
+    border: none;
+    padding-top: 3.25rem !important;
+    padding-bottom: 3.25rem !important;
+ }
+
+ .carousel-item .overlay{
+    background: #00000069;
+ }
+
+ .carousel-item .content span.post-date a:after{
+    color: transparent!important;
+ }
+
+.carousel-caption a{
+    color: #fff;
+    transition: 0.3s;
+ }
+
+.carousel-caption .byline {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.carousel-item .content span a{
+    color: #fff;
+}
+
+.container .news{
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 800px;
+    font-size: 30px;
+}
+
+.blog-sec-wp .blog-area .blog-content .title a:hover{
+    color: #9311cb;
+}
+
+.blog-sec-wp .blog-user-details li i{
+    color: #9311cb;
+}
+
+.blog-sec-wp .blog-area .blog-content .read-more{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 12px 15px 12px 15px;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px 1px!important;
+    transition: all 0.5s ease-in-out;
+}
+
+.blog-sec-wp .blog-area .blog-content .read-more:hover{
+    background-color: #9311cb!important;
+}
+
+.blog-sec-wp .blog-area .blog-content .read-more:focus{
+    background-color: #9311cb;
+}
+
+.blog-sec-wp .paging-navigation .navigation .current{
+    background: #9311cb!important;
+    border-color: #9311cb!important;
+}
+
+.blog-sec-wp .paging-navigation .navigation a:hover {
+    background-color: #9311cb!important;
+    border-color: #9311cb!important;
+}
+
+.wp-block-search .wp-block-search__button{
+    background-color: #9311cb;
+}
+
+.blog-content ul li a{
+    color: #9311cb!important;
+}
+
+blockquote::before{
+    color: #9311cb;
+}
+
+.navigation-blog .navi-item .navi-text .name-navi{
+    color: #9311cb;
+}
+
+.navigation-blog .navi-item .navi-arrow:hover{
+    background: #9311cb;
+    border-color: #9311cb;
+    color: #fff;
+}
+
+.navigation-blog .navi-item .navi-text .title-navi a:hover{
+    color: #9311cb;
+}
+
+.navigation-blog .navi-item .navi-text .info-navi a:hover{
+    color: #9311cb;
+}
+
+.sidebar .widget .wp-block-group .wp-block-group__inner-container h2:before, .sidebar .widget h2:before{
+    background-color: #9311cb;
+}
+
+.wp-block-latest-comments__comment-meta{
+    color: #9311cb;
+}
+
+.blog-sec-wp .sidebar .widget_archive ul li a:before, .blog-sec-wp .sidebar .wp-block-archives li a:before{
+    color: #9311cb;
+}
+
+.sidebar .widget_categories ul .cat-item::before, .sidebar .wp-block-categories .cat-item::before{
+    color: #9311cb;
+}
+.blog-sec-wp .blog-user-details{
+    padding-top: 5px;
+}
+.blog-sec-wp .paging-navigation .navigation .current{
+    border-radius: 0px !important;
+}
+.blog-sec-wp .paging-navigation .navigation a{
+    border-radius: 0px !important;
+}
+.comments-area .comment-respond .comment-form .form-submit .submit{
+    background: #9311cb;
+}
+.wp-header .wp-topbar .topbar-left ul li a:hover{
+    color: #9311cb;
+}
+.sidebar ul li a:hover{
+    color: #9311cb!important;
+}
+.sidebar ul li a:focus{
+    color: #9311cb!important;
+}
+.navigation-blog .navi-item .navi-text .title-navi a:focus{
+    color: #9311cb!important;
+}
+.sidebar .wp-block-categories .cat-item:hover{
+    color: #9311cb;
+}
+.carousel-item img{
+    height: 500px !important;
+}
